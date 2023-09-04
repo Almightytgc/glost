@@ -1,0 +1,5 @@
+'text': '#f8f1ed',
+'background': '#000000',
+'primary': '#428736',
+'secondary': '#0D354F',
+'accent': '#fc5a03',

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="shortcut icon" href="../assets/IconLight.png" type="image/x-icon">
+    <title>Glost</title>
+</head>
+<body>
+        <!-- main container -->
+    <div class="bg-[#212121] min-h-screen flex justify-center items-center flex-col">
+
+        <div class="w-full p-8">
+            <img src="../assets/GLOSTB.png" class="mx-auto w-40" alt="logo">
+        </div>
+
+        <div class="my-5 w-full flex justify-center">
+            <a href="categories.html" class="max-sm:w-[80%] w-1/3 text-center border border-[#fc5a03] text-white p-2 rounded-xl bg-[#fc5a03] hover:border-[#0D354F] hover:bg-[#0D354F] hover:text-white duration-300">Regresar</a>
+        </div>
+
+        <h1 class="text-5xl text-white border-b-4 border-[#428736] py-4">Intermedio</h1>
+
+        <h1 id="anual" class="text-white text-3xl my-5">Anual</h1>
+        <div id="resultado-anual" class="flex flex-row flex-wrap gap-1 justify-center"></div>
+
+        <h1 id="enero" class="text-white text-3xl my-5">Enero</h1>
+        <div id="resultado-enero" class="flex flex-row flex-wrap gap-1 justify-center"></div>
+
+        <h1 id="bailar" class="text-white text-3xl my-5">Bailar</h1>
+        <div id="resultado-bailar" class="flex flex-row flex-wrap gap-1 justify-center"></div>
+
+        <h1 id="banana" class="text-white text-3xl my-5">Banana</h1>
+        <div id="resultado-banana" class="flex flex-row flex-wrap gap-1 justify-center"></div>
+    </div>
+    <script src="../js/tools.js" defer></script>
+    <script src="../js/intermedio.js" defer></script>
+</body>
+</html>

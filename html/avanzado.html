@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="shortcut icon" href="../assets/IconLight.png" type="image/x-icon">
+    <title>Glost</title>
+</head>
+<body>
+        <!-- main container -->
+    <div class="bg-[#212121] min-h-screen container flex justify-center items-center flex-col">
+
+        <div class="w-full p-8">
+            <img src="../assets/GLOSTB.png" class="mx-auto w-40" alt="logo">
+        </div>
+
+        <div class="my-5 w-full flex justify-center">
+            <a href="categories.html" class="max-sm:w-[80%] w-1/3 text-center border border-[#fc5a03] text-white p-2 rounded-xl bg-[#fc5a03] hover:border-[#0D354F] hover:bg-[#0D354F] hover:text-white duration-300">Regresar</a>
+        </div>
+
+        <h1 class="text-5xl text-white border-b-4 border-[#428736] py-4">Avanzado</h1>
+
+        <h1 id="negro" class="text-white text-3xl my-5">Negro</h1>
+        <div id="resultado-negro" class="flex flex-row flex-wrap gap-1 justify-center"></div>
+        <h1 id="comer" class="text-white text-3xl my-5">Comer</h1>
+        <div id="resultado-comer" class="flex flex-row flex-wrap gap-1 justify-center"></div>
+        <h1 id="anillo" class="text-white text-3xl my-5">Anillo</h1>
+        <div id="resultado-anillo" class="flex flex-row flex-wrap gap-1 justify-center"></div>
+        <h1 id="diodo" class="text-white text-3xl my-5">Diodo</h1>
+        <div id="resultado-diodo" class="flex flex-row flex-wrap gap-1 justify-center"></div>
+    </div>
+    <script src="../js/tools.js" defer></script>
+    <script src="../js/avanzado.js" defer></script>
+</body>
+</html>
